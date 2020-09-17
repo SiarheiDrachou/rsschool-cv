@@ -32,3 +32,6 @@
   > https://github.com/SiarheiDrachou/CV
 - ABC mobile
   > Frontend developer(Vue)
+### Education
+- **BSUIR**: ***2014 - 2018***
+- **School of Syntax**: ***2019-2020***
