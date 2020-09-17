@@ -25,3 +25,5 @@
 - Cross-browser compatibility
 - Figma, Adobe Photoshop
 - Knowledge of databases (MySQL, MongoDB)
+### Code Examples
+- https://github.com/SiarheiDrachou
