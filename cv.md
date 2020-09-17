@@ -27,3 +27,8 @@
 - Knowledge of databases (MySQL, MongoDB)
 ### Code Examples
 - https://github.com/SiarheiDrachou
+### Work experience
+- Syntax School (Frontend Developer (Vue.js)
+  > https://github.com/SiarheiDrachou/CV
+- ABC mobile
+  > Frontend developer(Vue)
