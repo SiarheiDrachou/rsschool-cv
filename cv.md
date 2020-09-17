@@ -35,3 +35,5 @@
 ### Education
 - **BSUIR**: ***2014 - 2018***
 - **School of Syntax**: ***2019-2020***
+### English language
+> **A2**
