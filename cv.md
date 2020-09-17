@@ -14,3 +14,14 @@
   > Fullstack developer
 - Work experience
   > Working as a Front-end Developer (Vue js)
+### Skills
+- HTML5
+- CSS3, CSS UI Frameworks (Bootstrap, Material), CSS - Methodologies (BEM)
+- SASS, SCSS
+- Javascript (ES5, ES6 +), Java
+- Vue.js, Vue route
+- REST
+- Git
+- Cross-browser compatibility
+- Figma, Adobe Photoshop
+- Knowledge of databases (MySQL, MongoDB)
