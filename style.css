@@ -3,18 +3,11 @@
     display: flex;
     padding: 25px 50px;
     justify-content: center;
-    overflow: hidden;
 }
 
 .information__img {
     width: 150px;
     margin-right: 50px;
-}
-
-.information div {
-    text-align: left;
-    overflow: hidden;
-    width: 100%;
 }
 
 .information div:first-child {
@@ -28,6 +21,12 @@
     animation-name: right;
     animation-timing-function: linear;
     animation-duration: 2s;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills__header {
@@ -45,7 +44,7 @@
 }
 
 .studies div {
-    text-align: left;
+    text-align: center;
     margin: 20px;
 }
 
@@ -55,7 +54,7 @@
 }
 
 .works div {
-    text-align: left;
+    text-align: center;
     margin: 20px;
 }
 
@@ -65,7 +64,7 @@
 }
 
 .more  div {
-    text-align: left;
+    text-align: center;
     margin: 20px;
 }
 
@@ -77,6 +76,7 @@
 
     .information__img {
         margin-bottom: 50px;
+        margin-right: 0;
     }
 
     .information div {
