@@ -4,96 +4,247 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>CV</title>
+    <title>webdev</title>
 </head>
 <body>
-    <div class="information">
-        <img 
-            class="information__img"
-            src="./assets/img/photo.jpg"  
-            alt="My photo" 
-        />
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li class="header__nav__list__item">
+                    <a 
+                        href="#" 
+                        class="header__nav__list__item__link"
+                    >
+                        About
+                    </a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a 
+                        href="#" 
+                        class="header__nav__list__item__link"
+                    >
+                        Syllabus
+                    </a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a 
+                        href="#" 
+                        class="header__nav__list__item__link logo">
+                        <img 
+                            src="./assets/img/logo.svg" 
+                            alt="logo error" 
+                            class="header__nav__list__item__link__img"
+                        />
+                    </a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a 
+                        href="#" 
+                        class="header__nav__list__item__link"
+                    >
+                        Projects
+                    </a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a 
+                        href="#" 
+                        class="header__nav__list__item__link"
+                    >
+                        FAQ
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-        <div>
-            <div>
-            <b>Драчёв Сергей</b>
-            <br>
-            <b>Желаемая должность: </b> Frontend developer
-            <br />
-            <b>Дата рождения: </b> <span>06.11.1994</span>
-            <br />
-            <b>Проживание: </b> г. Минск
-            <br />
+        <div class="header-start">
+            <h1 class="header-start__header">
+                Your life is WebDev
+            </h1>
+
+            <p class="header-start__text">
+                Whatever the approach to development may be, the final program 
+                must satisfy some fundamental properties
+            </p>
+
+            <button class="header-start__button">Get started</button>
+        </div>
+
+        <div class="header-social">
+            <img 
+                src="./assets/img/mail.svg" 
+                alt="mail logo error"
+                class="header-social__img"
+            />
+            <img 
+                src="./assets/img/facebook.svg" 
+                alt="facebook logo error"
+                class="header-social__img"
+            />
+            <img 
+                src="./assets/img/insta.svg" 
+                alt="insta logo error"
+                class="header-social__img"
+            />
+            <img 
+                src="./assets/img/telegram.svg" 
+                alt="telegram logo error"
+                class="header-social__img"
+            />
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main-aidea">
+            <div class="main-aidea-container">
+                <h1 class="main-aidea-container__header">
+                    Rappresent your idea with a smart Design
+                </h1>
+    
+                <p class="main-aidea-container__text">
+                    Tasks accompanying and related to programming include: testing, 
+                    debugging, source code maintenance, <strong>implementation of build systems</strong>,
+                    and management of derived artifacts, such as the machine code of 
+                    computer programs.
+                </p>
+    
+                <button class="main-aidea-container__button">Get started</button>
             </div>
 
-            <div>
-            <b>Контактная информация</b>
-            <br>
-            <b>Телефон: </b> <a href="tel:+375259156177">+375259156177</a>
-            <br />
-            <b>Репозиторий: </b> <a href="https://github.com/SiarheiDrachou">Github</a>
-            <br />
-            <b>Профиль: </b> <a href="https://www.linkedin.com/in/siarheidrachou/">Linkedin</a>
-            <br />
-            <b>Электронная почта: </b> <a href="mailto:9kudza@tut.by">9kudza@tut.by</a>
+            <img src="./assets/img/content-image.png" alt="" class="main-aidea__img" />
+        </section>
+
+        <section class="main-community">
+            <div class="main-community-descr">
+                <img 
+                    src="./assets/img/icon.png" 
+                    alt="" 
+                    class="main-community-descr__img" 
+                />
+
+                <p class="main-community-descr__text--medium">
+                    Our community
+                </p>
+
+                <p class="main-community-descr__text">
+                    A hacker is any skilled computer expert that uses their technical 
+                    knowledge to overcome a problem, but it can also mean a security 
+                    hacker in common language
+                </p>
             </div>
-        </div>
-    </div>
-    <div class="skills">
-        <h3 class="skills__header">Ключевые знания и навыки</h3>
 
-        <ul class="skills-list">
-            <li class="skills-list__item">HTML5</li>
-            <li class="skills-list__item">CSS3, CSS UI frameworks (Bootstrap, Material), CSS Methodologies (BEM)</li>
-            <li class="skills-list__item">SASS, SCSS</li>
-            <li class="skills-list__item">Javascript (ES5, ES6+)</li>
-            <li class="skills-list__item">Vue.js</li>
-            <li class="skills-list__item">REST</li>
-            <li class="skills-list__item">Git</li>
-            <li class="skills-list__item">Cross-browser compatibility</li>
-            <li class="skills-list__item">Figma, Adobe Photoshop</li>
-            <li class="skills-list__item">Knowledge in databases (MySQL, MongoDB)</li>
-        </ul>
-    </div>
-    <div class="works">
-        <h3 class="works__header">Опыт работы</h3>
+            <div class="main-community-slider">
+                <div class="main-community-slider-pagination">
+                    <span><  </span>
+                    <span>1</span>
+                    <span>/</span>
+                    <span>5</span>
+                    <span>  ></span>
+                </div>
 
-        <div>
-            <b>Место работы: </b> ABC mobile
-            <br />
-            <b>Должность: </b> Frontend developer(Vue)
-            <br />
-            <b>Срок работы: </b> с 01.04.2020 по настоящее время
-            <br />
-        </div>
-    </div>
-    <div class="studies">
-        <h3 class="studies__header">Образование</h3>
+                <div class="main-community-slider-container">
+                    <img 
+                        src="./assets/img/item-2.png" 
+                        alt="" 
+                        class="main-community-slider-container__img img-2" 
+                    />
+                    
+                    <img 
+                        src="./assets/img/item-1.png" 
+                        alt="" 
+                        class="main-community-slider-container__img img-1" 
+                    />
 
-        <div>
-            <b>Место обучения: </b> БГУИР
-            <br />
-            <b>Специальность: </b> Вычислительные машины системы и сети
-            <br />
-            <b>Срок обучения: </b> 2014 - 2018
-            <br />
+                    <img 
+                        src="./assets/img/item-3.png" 
+                        alt="" 
+                        class="main-community-slider-container__img img-3" 
+                    />
+                </div>
+            </div>
+        </section>
+
+        <section class="main-code">
+            <img 
+                src="./assets/img/content-image-2.png" 
+                alt="" 
+                class="main-code__img"
+            />
+
+            <div class="main-code-container">
+                <p class="main-code-container__header">
+                    <strong>Implement right Code</strong>
+                </p>
+
+                <p class="main-code-container__text">
+                    These might be considered part of the programming process, but 
+                    often the term software development is used for this larger process 
+                    with the term programming, implementation
+                </p>
+
+                <button class="main-code-container__button">
+                    Learn more
+                </button>
+            </div>
+        </section>
+
+        <section class="main-search">
+            <div class="main-search-container">
+                <h2 class="main-search-container__header">
+                    Sign up for our newsletter
+                </h2>
+                
+                <form class="main-search-container__form">
+                    <input 
+                        type="email" 
+                        class="main-search-container__form__input"
+                        placeholder="E-mail"
+                    />
+
+                    <button class="main-search-container__form__button">
+                        <img 
+                            src="./assets/img/btn-submit.svg" 
+                            alt="" 
+                            class="main-search-container__form__button__img"
+                        />
+                    </button>
+                </form>
+                
+            </div>
+        </section>
+
+        <section class="main-download">
+            <h1 class="main-download__header">
+                Download the app
+            </h1>
+
+            <p class="main-download__text">
+                Machine code was the language of early programs, written in the 
+                instruction set of the particular machine, often in binary notation.
+            </p>
+
+            <div class="main-download-container">
+                <button class="main-download-container__button-apple">
+                    Apple store
+                </button>
+    
+                <button class="main-download-container__button-android">
+                    Play market
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="#" class="footer-container__link">Credits</a>
+            <a href="#" class="footer-container__link border">Privacy</a>
+            <a href="#" class="footer-container__link">Our teams</a>
         </div>
 
-        <div>
-            <b>Место обучения: </b> Syntax school
-            <br />
-            <b>Специальность: </b> Frontend developer(Vue)
-            <br />
-            <b>Срок обучения: </b> 2019 - 2020
-            <br />
-        </div>
-    </div>
-    <div class="more">
-        <h3 class="more__header">Дополнительная информация</h3>
+        <img src="./assets/img/logo.svg" alt="logo error" class="footer__img"/>
 
-        <div>
-            <b>Английский язык: </b> A2
-        </div>
-    </div>
+        <div class="footer__copyright">by TonYem for RSS at 2020</div>
+    </footer>
+
 </body>
 </html>
